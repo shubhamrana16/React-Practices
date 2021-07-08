@@ -12,7 +12,7 @@ class EventBind extends Component {
             message : "Hello Shubham"
         }
 
-        //binding in constructor, and its co
+        //binding in constructor .
       //  this.eventBinding = this.eventBinding.bind(this);
     }
 
@@ -29,10 +29,11 @@ class EventBind extends Component {
     //      })
      }
 
+     //This approach is highly recommanded for a performance point of view.
         eventBinding =() => {
             this.setState({
                 message : "how r you rana"
-            })
+            }, console.log(this))
         }
 
 
@@ -44,7 +45,7 @@ class EventBind extends Component {
                  
                {/* <button onClick = {this.eventBinding.bind(this)} > clickBinding </button>
                    first approach is binding in render,it is not recommand because of performace point of view
-                                                                                  */}
+                    Imp-> This keyword is undefind within the event Handler                                                               */}
                  
                 {/**
                     second approach is to make the event handler call as a arrow funtion.
