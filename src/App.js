@@ -11,19 +11,34 @@ import EventBind from './components/EventBind';
 import NameList from './components/NameList';
 import ParentComponent from './components/ParentComponent';
 import UserGreet from './components/UserGreet';
+import LifeCycleA from './components/LifeCycleA';
+import { Fragment } from 'react';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+import ParentComp from './components/ParentComp';
 
 function App() {
   return (
 
     <div className="App">
-       
-      <ParentComponent />
+
+    
+    <ParentComp />
+
+    {/**
+
+      
+       <Table />
+      <FragmentDemo />
+      <LifeCycleA />
+       <ParentComponent />
       <NameList />
       
       <EventBind />
 
       <UserGreet />
-
+     */}
+       
    { /* <FunctionClick></FunctionClick>
 
    <ClassClick></ClassClick> */}
