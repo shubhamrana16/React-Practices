@@ -25,7 +25,7 @@ function NameList() {
 
     // recommanded way to create the seperate file for jsx. 
 
-    //here i am import persons component <person person = {props} />
+    
 
     //this component is only responsible to redering the element in web
     const namelist = persons.map(props  =>  <Persons person = {props} /> )
