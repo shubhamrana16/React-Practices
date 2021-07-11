@@ -16,6 +16,7 @@ import { Fragment } from 'react';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
 import ParentComp from './components/ParentComp';
+import Demo from './components/Demo';
 
 function App() {
   return (
@@ -23,11 +24,12 @@ function App() {
     <div className="App">
 
     
-    <ParentComp />
+    <Demo />
+    
 
     {/**
-
-      
+       <ParentComp />  
+       
        <Table />
       <FragmentDemo />
       <LifeCycleA />

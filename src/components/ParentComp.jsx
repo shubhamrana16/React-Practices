@@ -19,7 +19,9 @@ export class ParentComp extends Component {
     componentDidMount(){
         setInterval(() => {
             this.setState({
-                name : "Suraj"
+               // name : "Suraj"
+
+                  name : "Shubham Rana"
             })
         }, 2000)
     }
@@ -29,11 +31,14 @@ export class ParentComp extends Component {
         return (
             <div>
                  Parent Component.
-                     <MemoDemo name = {this.state.name} />
+
+                 <MemoDemo name = {this.state.name} />
 
                  {/*
-                  * <RegulComp name = {this.state.name} />
-                    <PureComp name = {this.state.name} />
+                    
+                     <RegulComp name = {this.state.name} />
+                      <PureComp name = {this.state.name} />
+                  * 
                   */}
                  
                 

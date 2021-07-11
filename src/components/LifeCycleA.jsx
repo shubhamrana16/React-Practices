@@ -16,8 +16,8 @@ import LifeCycleB from './LifeCycleB';
     //its excute after the constructor. and before the render method.
 
      
-  static getDrivedStateFromProps(props, state){
-        console.log("LifeCycleA  getDrivedStateFromProps");
+  static getDerivedStateFromProps(props, state){
+        console.log("LifeCycleA  getDerivedStateFromProps");
 
         return null;
     }
