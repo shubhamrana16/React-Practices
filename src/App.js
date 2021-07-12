@@ -13,7 +13,7 @@ import './App.css';
 // import NameList from './components/NameList';
 // import ParentComponent from './components/ParentComponent';
 // import UserGreet from './components/UserGreet';
-// import LifeCycleA from './components/LifeCycleA';
+ import LifeCycleA from './components/LifeCycleA';
 // import { Fragment } from 'react';
 // import FragmentDemo from './components/FragmentDemo';
 // import Table from './components/Table';
@@ -23,7 +23,10 @@ import './App.css';
 // import HookObject from './components/HookObject';
 //import HookWithArray from './components/HookWithArray';
   
-
+import ClickCounterHoc from './components/ClickCounterHoc';
+import HttpAxios from './components/HttpAxios';
+import HttpAxiosPost from './components/HttpAxiosPost';
+import  MouseOver  from './components/MouseOver';
 function App() {
 
   
@@ -33,10 +36,15 @@ function App() {
     <div className="App">
 
       
+    
    
    
 
     {/**
+      <HttpAxios />
+      <HttpAxiosPost />
+      <ClickCounterHoc name = "shubham rana" />
+       <MouseOver />
       <HookWithArray />
       <HookObject />
       <ContextExample />

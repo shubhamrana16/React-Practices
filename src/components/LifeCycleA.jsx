@@ -24,9 +24,9 @@ import LifeCycleB from './LifeCycleB';
 
     //Invoked Immediately after the component (Render method) and its Children component have been
     //rendered to the dom.
-    // componentDidMount(){
-    //     console.log("LifeCycleA componentDidMount")
-    // }
+    componentDidMount(){
+        console.log("LifeCycleA componentDidMount")
+    }
     
 
 
