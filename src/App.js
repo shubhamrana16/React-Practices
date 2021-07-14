@@ -1,26 +1,5 @@
 //import logo from './logo.svg';
-import React,{ useState} from 'react';
-import './App.css';
-<<<<<<< HEAD
-import Greet from './components/Greet'
-import Hello from './components/Hello';
-import Message from "./components/Message";
-import Counter from "./components/Counter";
-import FunctionClick from './components/FunctionClick';
-
-import  ClassClick from     "./components/ClassClick";
-import EventBind from './components/EventBind';
-import NameList from './components/NameList';
-import ParentComponent from './components/ParentComponent';
-import UserGreet from './components/UserGreet';
-import LifeCycleA from './components/LifeCycleA';
-import { Fragment } from 'react';
-import FragmentDemo from './components/FragmentDemo';
-import Table from './components/Table';
-import ParentComp from './components/ParentComp';
-import Demo from './components/Demo';
-=======
- 
+ import './App.css';
 // import Greet from './components/Greet'
 // import Hello from './components/Hello';
 // import Message from "./components/Message";
@@ -32,7 +11,7 @@ import Demo from './components/Demo';
 // import NameList from './components/NameList';
 // import ParentComponent from './components/ParentComponent';
 // import UserGreet from './components/UserGreet';
- import LifeCycleA from './components/LifeCycleA';
+// import LifeCycleA from './components/LifeCycleA';
 // import { Fragment } from 'react';
 // import FragmentDemo from './components/FragmentDemo';
 // import Table from './components/Table';
@@ -42,15 +21,13 @@ import Demo from './components/Demo';
 // import HookObject from './components/HookObject';
 //import HookWithArray from './components/HookWithArray';
   
-<<<<<<< HEAD
->>>>>>> test
-
-=======
 import ClickCounterHoc from './components/ClickCounterHoc';
+import CounterEffectHook from './components/CounterEffectHook';
 import HttpAxios from './components/HttpAxios';
 import HttpAxiosPost from './components/HttpAxiosPost';
 import  MouseOver  from './components/MouseOver';
->>>>>>> test
+
+
 function App() {
 
   
@@ -58,22 +35,15 @@ function App() {
   return (
 
     <div className="App">
+    <CounterEffectHook />
 
-<<<<<<< HEAD
-    
-    <Demo />
-    
-
-    {/**
-       <ParentComp />  
-       
-=======
       
     
-   
+    
    
 
     {/**
+      <LifeCycleA />
       <HttpAxios />
       <HttpAxiosPost />
       <ClickCounterHoc name = "shubham rana" />
@@ -82,7 +52,6 @@ function App() {
       <HookObject />
       <ContextExample />
       <ParentComp />
->>>>>>> test
        <Table />
       <FragmentDemo />
       <LifeCycleA />
